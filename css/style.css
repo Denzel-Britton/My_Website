@@ -61,6 +61,7 @@ img {
     max-width: 100%;
 }
 
+
 strong { font-weight: var(--fw-bold) }
 
 :focus {
@@ -540,11 +541,62 @@ header {
 .skills {
     display: flex;
     position: relative;
-   flex-grow: inherit;
-    padding-top: 85px;
+   /*flex-grow: inherit;*/
+
+    padding-left: 79px;
+    margin-right: 50px;
 
 }
 .skills_image {
-    height: 1.5em;
-    padding-right: 10px
+
+    display: block;
+    max-width: inherit;
+}
+
+.hoverinfo {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 31px;
+}
+
+.hoverinfo p {
+    /*display: none;*/
+    color: #000000;
+    flex-wrap: wrap;
+    width: 53px;
+}
+
+.hoverinfo:hover p {
+    background-color: #be8a59;
+    display: flex;
+    size: 4px;
+}
+.grid-container , section.skills{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(min(57px,100%), 1fr));
+
+
+
+}
+.grid-container > div.skills,span.skills{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+ .pclass{
+     font-size: 12px;
+ }
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /*border: 3px solid #a07;*/
+    margin-right: 173px;
 }
