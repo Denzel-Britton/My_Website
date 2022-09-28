@@ -600,4 +600,34 @@ header {
     /*border: 3px solid #a07;*/
     margin-right: 173px;
 }
+p,
+h1 {
+    width: 100%;
+}
 
+h1 {
+    animation: right_to_left 2.5s ease;
+}
+
+h1 {
+    /*text-align: center;*/
+    animation: left_to_right 2.5s ease;
+}
+
+@keyframes right_to_left {
+    from {
+        /*margin-left: 100%;*/
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes left_to_right {
+    from {
+        margin-left: -150%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
