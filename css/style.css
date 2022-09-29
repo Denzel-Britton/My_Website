@@ -558,7 +558,7 @@ header {
     transition: 0.5s;
 }
 .skills_image:hover{
-    box-shadow: 0 0 3px black;
+
     margin-top: -15px;
 
 }
