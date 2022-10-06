@@ -623,7 +623,7 @@ h1 {
 
 h1 {
     /*text-align: center;*/
-    animation: left_to_right 2.5s ease;
+    animation: left_to_right 4.7s ease-in-out;
 }
 
 @keyframes right_to_left {
