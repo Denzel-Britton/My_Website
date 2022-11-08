@@ -1,2 +1,2 @@
-# My personal blong in progress
+# My personal blog in progress
 
